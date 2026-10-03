@@ -91,3 +91,90 @@ h1 {
 }
 .footer p { margin: 0; }
 
+.footer a { color: var(--soft); }
+.footer a:hover { color: var(--ink); }
+
+/* Guide pages */
+.topbar {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 24px 0;
+  font-weight: 800;
+}
+.topbar a { color: var(--ink); text-decoration: none; }
+
+.doc {
+  flex: 1;
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 24px 64px;
+  color: #c9d3cf;
+  font-size: 1.02rem;
+}
+.doc h1 {
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+  line-height: 1.15;
+  letter-spacing: -.025em;
+  color: var(--ink);
+  margin: 8px 0 12px;
+}
+.doc h2 {
+  margin: 48px 0 12px;
+  font-size: 1.35rem;
+  line-height: 1.3;
+  letter-spacing: -.01em;
+  color: var(--ink);
+  scroll-margin-top: 16px;
+}
+.doc a { color: var(--green); }
+.doc strong { color: var(--ink); }
+.doc ul, .doc ol { padding-left: 1.3em; }
+.doc li { margin-bottom: 8px; }
+.doc a[href^="#s"]:not([href="#sources"]) { font-size: .8em; text-decoration: none; }
+.doc .btn { color: #06210f; text-decoration: none; }
+
+.crumbs { font-size: .85rem; color: var(--soft); }
+.crumbs a { color: var(--soft); }
+.meta { font-size: .9rem; color: var(--soft); }
+
+.toc {
+  margin: 28px 0;
+  padding: 16px 20px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+.toc ol { margin: 0; }
+.toc li { margin-bottom: 4px; }
+
+.doc table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: .95rem;
+}
+.doc th, .doc td {
+  text-align: left;
+  vertical-align: top;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line);
+}
+.doc th { color: var(--ink); font-weight: 600; }
+.doc td:first-child { white-space: nowrap; color: var(--ink); }
+
+.sources { font-size: .88rem; color: var(--soft); }
+.sources li { scroll-margin-top: 16px; }
+
+.forsale {
+  margin-top: 56px;
+  padding: 28px 24px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  text-align: center;
+}
+.forsale p { margin: 0 0 18px; }
+
+@media (max-width: 640px) {
+  .doc td:first-child { white-space: normal; }
+}

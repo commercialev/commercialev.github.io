@@ -179,3 +179,38 @@ h1 {
   .doc td:first-child { white-space: normal; }
 }
 .note { font-size: .88rem; color: var(--soft); }
+
+.summary {
+  margin: 24px 0 8px;
+  padding: 18px 22px;
+  border-left: 3px solid var(--green);
+  background: rgba(34, 197, 94, .06);
+  border-radius: 0 10px 10px 0;
+}
+.summary h2 { margin: 0 0 8px; font-size: 1.05rem; }
+.summary ul { margin: 0; }
+.doc caption { text-align: left; font-size: .85rem; color: var(--soft); padding-bottom: 6px; }
+
+.guides {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  max-width: 640px;
+  margin: 48px auto 0;
+  text-align: left;
+}
+.guides a {
+  display: block;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color .15s;
+}
+.guides a:hover { border-color: var(--green); }
+.guides strong { display: block; margin-bottom: 2px; }
+.guides span { font-size: .88rem; color: var(--soft); }
+@media (max-width: 640px) {
+  .guides { grid-template-columns: 1fr; }
+}

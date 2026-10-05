@@ -178,3 +178,4 @@ h1 {
 @media (max-width: 640px) {
   .doc td:first-child { white-space: normal; }
 }
+.note { font-size: .88rem; color: var(--soft); }

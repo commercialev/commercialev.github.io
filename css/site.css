@@ -100,9 +100,17 @@ h1 {
   max-width: 760px;
   margin: 0 auto;
   padding: 24px 24px 0;
-  font-weight: 800;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px 20px;
 }
 .topbar a { color: var(--ink); text-decoration: none; }
+.brandlink { font-weight: 800; }
+.topnav { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: .9rem; }
+.topnav a { color: var(--soft); }
+.topnav a:hover, .topnav a[aria-current="page"] { color: var(--green); }
 
 .doc {
   flex: 1;
@@ -195,7 +203,7 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 14px;
-  max-width: 640px;
+  max-width: 680px;
   margin: 48px auto 0;
   text-align: left;
 }
@@ -213,4 +221,14 @@ h1 {
 .guides span { font-size: .88rem; color: var(--soft); }
 @media (max-width: 640px) {
   .guides { grid-template-columns: 1fr; }
+}
+
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 16px 0; }
+.table-wrap table { margin: 0; }
+.doc table.models td:first-child { white-space: normal; width: 46%; }
+.doc table.models td:not(:first-child) { white-space: nowrap; }
+@media (max-width: 640px) {
+  .doc th, .doc td { padding: 8px 6px; }
+  .doc table { font-size: .85rem; }
+  .doc table.models td:not(:first-child) { white-space: normal; }
 }

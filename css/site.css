@@ -244,3 +244,24 @@ h1 {
   .doc table.models td:not(:first-child) { white-space: normal; }
 }
 .doc table.fleets td:first-child { white-space: normal; width: 22%; }
+
+/* Homepage hub */
+.hub h1 { font-size: clamp(2.2rem, 7vw, 3.6rem); }
+.news {
+  display: inline-block;
+  max-width: 44rem;
+  padding: 10px 18px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: .9rem;
+  line-height: 1.5;
+  color: var(--soft);
+  text-decoration: none;
+  transition: border-color .15s;
+}
+.news strong { color: var(--ink); }
+.news::after { content: " \2192"; color: var(--green); }
+.news:hover { border-color: var(--green); }
+.news:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+.hub .guides-section { margin-top: 48px; }
+.footer-links { flex-wrap: wrap; gap: 8px 24px; }

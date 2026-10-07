@@ -265,3 +265,8 @@ h1 {
 .news:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
 .hub .guides-section { margin-top: 48px; }
 .footer-links { flex-wrap: wrap; gap: 8px 24px; }
+
+/* Charts */
+.doc figure.chart { margin: 24px 0 8px; }
+.doc figure.chart img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 12px; }
+.doc figure.chart figcaption { margin-top: 10px; font-size: .88rem; color: var(--soft); }

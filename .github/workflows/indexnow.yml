@@ -1,7 +1,8 @@
 name: IndexNow
 
-# Tells Bing, Yandex and other IndexNow search engines to recrawl the
-# pages in sitemap.xml after each change to the live site.
+# Tells Bing, Yandex and other IndexNow search engines to recrawl pages
+# after a change to the live site. A push submits only the pages it
+# changed; a manual run submits every URL in sitemap.xml.
 on:
   push:
     branches: [master]
@@ -12,16 +13,40 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Work out which URLs to submit
+        id: urls
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          grep -o '<loc>[^<]*</loc>' sitemap.xml | sed -e 's/<loc>//' -e 's/<\/loc>//' > sitemap-urls.txt
+          if [ "$EVENT" = "push" ] && [ -n "$BEFORE" ] && ! echo "$BEFORE" | grep -qE '^0+$' && git cat-file -e "$BEFORE" 2>/dev/null; then
+            git diff --name-only "$BEFORE" "$AFTER" -- '*.html' \
+              | sed -n -e 's#^index\.html$#/#p' -e 's#^\(.*\)/index\.html$#/\1/#p' \
+              | sed 's#^#https://commercialevs.co.uk#' \
+              | grep -Fxf sitemap-urls.txt > urls.txt || true
+          else
+            cp sitemap-urls.txt urls.txt
+          fi
+          echo "URLs to submit:"
+          cat urls.txt
+          echo "count=$(grep -c . urls.txt || true)" >> "$GITHUB_OUTPUT"
 
       - name: Wait for GitHub Pages to publish
+        if: steps.urls.outputs.count != '0'
         run: sleep 120
 
-      - name: Submit sitemap URLs
+      - name: Submit URLs
+        if: steps.urls.outputs.count != '0'
         env:
           HOST: commercialevs.co.uk
           KEY: 48d8db0c80f244ec719548ce4e0758a7
         run: |
-          urls=$(grep -o '<loc>[^<]*</loc>' sitemap.xml | sed -e 's/<loc>//' -e 's/<\/loc>//' | jq -R . | jq -s .)
+          urls=$(jq -R . urls.txt | jq -s .)
           body=$(jq -n --arg host "$HOST" --arg key "$KEY" --argjson urls "$urls" \
             '{host: $host, key: $key, keyLocation: "https://\($host)/\($key).txt", urlList: $urls}')
           echo "$body"

@@ -1,7 +1,30 @@
-The MIT License (MIT)
+Copyright (c) 2026 CommercialEVs.co.uk
 
-Copyright (c) 2013-2020 Start Bootstrap LLC
+This repository holds the website at https://commercialevs.co.uk/.
 
+Code
+----
+The HTML templates, CSS and workflow files are released under the MIT
+licence below.
+
+Charts and images
+-----------------
+The charts and images in /img and the favicon files are original work,
+released under the Creative Commons Attribution 4.0 International
+licence (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+Credit "CommercialEVs.co.uk" and link to the page the image appears on.
+
+Written content
+---------------
+The text of the guides is not covered by either licence. Short
+quotations with a link to the page are welcome.
+
+Figures from GOV.UK contain public sector information licensed under
+the Open Government Licence v3.0:
+https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+
+MIT licence
+-----------
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -17,5 +40,5 @@ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

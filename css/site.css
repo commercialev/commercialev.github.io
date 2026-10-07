@@ -270,3 +270,5 @@ h1 {
 .doc figure.chart { margin: 24px 0 8px; }
 .doc figure.chart img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 12px; }
 .doc figure.chart figcaption { margin-top: 10px; font-size: .88rem; color: var(--soft); }
+.doc figure.chart picture { display: block; }
+@media (max-width: 640px) { .doc figure.chart img { max-width: 440px; margin: 0 auto; } }

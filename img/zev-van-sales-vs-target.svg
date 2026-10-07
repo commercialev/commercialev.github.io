@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480" role="img" aria-labelledby="t d">
 <title id="t">Electric van sales against the ZEV mandate target, 2024 to 2030</title>
 <desc id="d">Battery-electric vans were 6.3% of new UK van sales in 2024 against a 10% target, 9.5% in 2025 against 16%, and 10.8% from January to September 2026 against 24%. The van target rises to 34% in 2027, 46% in 2028, 58% in 2029 and 70% in 2030. The 2026 review proposes 60%, 50% or 40% for 2030, or keeping 70% with longer flexibilities.</desc>
-<rect width="800" height="480" rx="14" fill="#0c1512"/>
+<rect width="800" height="480" fill="#0c1512"/>
 <g font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
 <text x="32" y="44" font-size="22" font-weight="700" fill="#f2f5f3">Electric van sales vs the ZEV mandate target</text>
 <text x="32" y="72" font-size="14" fill="#9aa9a3">Battery-electric share of new UK van sales (SMMT) against the yearly van target</text>

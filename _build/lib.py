@@ -12,7 +12,7 @@ import re
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = 'https://commercialevs.co.uk'
-CSS_VERSION = 4  # bump when css/site.css changes, here and in hand-written pages
+CSS_VERSION = 5  # bump when css/site.css changes, here and in hand-written pages
 
 NAV = [('/electric-vans-uk/', 'Vans'), ('/electric-trucks-uk/', 'Trucks'), ('/electric-van-batteries/', 'Batteries'),
        ('/electric-van-fleets-uk/', 'Fleets'), ('/charging-an-electric-van/', 'Charging'),
@@ -177,6 +177,7 @@ def page(slug, title, desc, og_desc, crumb, h1, published, modified, body, extra
 
   <footer class="footer">
     <p><a href="/">CommercialEVs.co.uk</a> &middot; <a href="/about/">About</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/domain-for-sale/">Domain for sale</a></p>
+    <p class="footer-note">We aren't responsible for the content of <a href="/about/#external-links">external websites</a> linked from this site.</p>
   </footer>
 </body>
 </html>

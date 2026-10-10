@@ -354,6 +354,21 @@
    ]
   ]
  },
+ "gm_caz": {
+  "label": "Greater Manchester's non-charging Clean Air Plan, Greater Manchester Combined Authority",
+  "links": [
+   [
+    "greatermanchester-ca.gov.uk",
+    "https://www.greatermanchester-ca.gov.uk/news/greater-manchester-non-charging-plan-delivers-cleaner-air-faster-than-charging-zone-modelling-shows",
+    true
+   ],
+   [
+    "manchester.gov.uk",
+    "https://www.manchester.gov.uk/taxis-and-private-hire/clean-air-update-report-july-2025/clean-air-zone-information",
+    true
+   ]
+  ]
+ },
  "govuk_caz": {
   "label": "Clean Air Zones and vehicle checker, GOV.UK",
   "links": [

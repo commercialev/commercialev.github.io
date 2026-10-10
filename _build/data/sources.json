@@ -1,0 +1,997 @@
+{
+ "acea": {
+  "label": "ACEA calls for delay to stricter EU-UK battery rules, electrive",
+  "links": [
+   [
+    "electrive.com",
+    "https://www.electrive.com/2026/09/22/acea-calls-for-delay-to-stricter-eu-uk-battery-rules/",
+    false
+   ]
+  ]
+ },
+ "aesc": {
+  "label": "AESC opens Sunderland cell plant, ecomento",
+  "links": [
+   [
+    "ecomento.de",
+    "https://ecomento.de/?p=126595",
+    false
+   ]
+  ]
+ },
+ "agratas": {
+  "label": "AESC delays third Sunderland line; Agratas timing, S&P Global Mobility",
+  "links": [
+   [
+    "spglobal.com",
+    "https://autotechinsight.spglobal.com/news/5290076/aesc-delays-third-sunderland-battery-line-after-jlr-talks-stall",
+    false
+   ],
+   [
+    "industrialinfo.com",
+    "https://www.industrialinfo.com/iirenergy/industry-news/article/tata-confirms-uk-site-for-ev-battery-gigafactory--328735",
+    false
+   ]
+  ]
+ },
+ "bath": {
+  "label": "Bath Clean Air Zone charges, Fleet News",
+  "links": [
+   [
+    "fleetnews.co.uk",
+    "https://www.fleetnews.co.uk/news/fleet-industry-news/2020/10/08/bath-to-charge-vehicles-to-enter-clean-air-zone-from-march",
+    false
+   ],
+   [
+    "vansdirect.co.uk",
+    "https://www.vansdirect.co.uk/blognews/uk-clean-air-zones/",
+    false
+   ]
+  ]
+ },
+ "bham": {
+  "label": "Birmingham Clean Air Zone goes live, Fleet News",
+  "links": [
+   [
+    "fleetnews.co.uk",
+    "https://www.fleetnews.co.uk/news/environment/2021/06/01/clean-air-zone-goes-live-in-birmingham",
+    false
+   ],
+   [
+    "trans.info",
+    "https://trans.info/en/birmingham-s-clear-air-zone-begins-tomorrow-some-hgvs-to-be-charged-50-239306",
+    false
+   ]
+  ]
+ },
+ "bnef": {
+  "label": "BloombergNEF 2025 battery price survey, Battery Tech",
+  "links": [
+   [
+    "battery-tech.net",
+    "https://battery-tech.net/battery-markets-news/lithium-ion-battery-pack-prices-hit-record-low-at-108-kwh/",
+    false
+   ],
+   [
+    "evinfrastructurenews.com",
+    "https://www.evinfrastructurenews.com/ev-technology/bloomberg-nef-lithium-ion-battery-pack-prices-drop-worldwide-ev-applications-hit-by-higher-materials-cost",
+    false
+   ]
+  ]
+ },
+ "bradford": {
+  "label": "Bradford Clean Air Zone, Bradford Council",
+  "links": [
+   [
+    "bradford.gov.uk",
+    "https://bradford.gov.uk/breathe-better-bradford/where-is-the-clean-air-zone/what-is-the-clean-air-zone-and-how-does-it-work/",
+    true
+   ],
+   [
+    "motorway.co.uk",
+    "https://motorway.co.uk/sell-my-car/guides/bradford-caz",
+    false
+   ]
+  ]
+ },
+ "bristol": {
+  "label": "Pay the Bristol Clean Air Zone daily charge, Bristol City Council",
+  "links": [
+   [
+    "bristol.gov.uk",
+    "https://www.bristol.gov.uk/residents/streets-travel/bristols-caz/pay-the-bristol-clean-air-zone-daily-charge",
+    true
+   ],
+   [
+    "stellantis.com",
+    "https://www.media.stellantis.com/uk-en/peugeot/press/clean-air-zone-charges-cost-uk-van-drivers-almost-800-per-year-peugeot-research-reveals",
+    false
+   ]
+  ]
+ },
+ "catldaimler": {
+  "label": "Daimler Truck and CATL expand partnership, Battery Industry",
+  "links": [
+   [
+    "batteryindustry.net",
+    "https://batteryindustry.net/daimler-truck-ag-and-catl-expand-global-partnership-joint-development-of-sophisticated-truck-focused-batteries-and-supply-agreed-beyond-2030",
+    false
+   ]
+  ]
+ },
+ "co2consult": {
+  "label": "New HGV CO2 emissions regulatory framework consultation, GOV.UK",
+  "links": [
+   [
+    "gov.uk",
+    "https://www.gov.uk/government/consultations/new-hgv-co2-emissions-regulatory-framework-for-the-uk",
+    true
+   ],
+   [
+    "ciltuk.org.uk",
+    "https://ciltuk.org.uk/news/202601/hgv-zero-emission-transition-consultation/",
+    false
+   ]
+  ]
+ },
+ "daf": {
+  "label": "New generation DAF XD and XF Electric, DAF UK",
+  "links": [
+   [
+    "daf.co.uk",
+    "https://www.daf.co.uk/en/news-and-media/news-articles/global/2025/new-generation-daf-xd-and-xf-electric-are-setting-the-standard",
+    false
+   ],
+   [
+    "electrive.com",
+    "https://www.electrive.com/2025/09/22/daf-begins-series-production-of-xd-and-xf-electric-electric-trucks",
+    false
+   ]
+  ]
+ },
+ "eactros400": {
+  "label": "eActros 400 and 600 UK launch, Euro Commercials",
+  "links": [
+   [
+    "eurocommercials.co.uk",
+    "https://www.eurocommercials.co.uk/about-us/news/mercedes-benz-eactros-400-600-electric-trucks-uk-launch-2025/",
+    false
+   ]
+  ]
+ },
+ "eactros600": {
+  "label": "Mercedes-Benz eActros 600 specifications, InsideEVs",
+  "links": [
+   [
+    "insideevs.com",
+    "https://insideevs.com/news/691149/mercedes-eactros-truck-reveal-range-battery-specs/",
+    false
+   ],
+   [
+    "mercedes-benz-trucks.com",
+    "https://www.mercedes-benz-trucks.com/gb/en/trucks/eactros.html",
+    false
+   ]
+  ]
+ },
+ "ecanter": {
+  "label": "First UK operators take delivery of Fuso eCanter, Transport Engineer",
+  "links": [
+   [
+    "transportengineer.org.uk",
+    "https://www.transportengineer.org.uk/content/news/first-uk-operators-take-delivery-of-fuso-ecanter",
+    false
+   ]
+  ]
+ },
+ "esprinter": {
+  "label": "Mercedes eSprinter battery, Green Car Reports",
+  "links": [
+   [
+    "greencarreports.com",
+    "https://www.greencarreports.com/news/1140662_mercedes-first-us-electric-vans-are-now-available-starting-at-74-181",
+    false
+   ],
+   [
+    "vision-mobility.de",
+    "https://vision-mobility.de/en/news/introduction-of-the-mercedes-esprinter-the-electric-star-goes-further-in-the-future-237838.html",
+    false
+   ]
+  ]
+ },
+ "etc_ford": {
+  "label": "What's new for the 2026 E-Transit Custom, Ford",
+  "links": [
+   [
+    "ford.com",
+    "https://www.fromtheroad.ford.com/eur/en/articles/2025/whats-new-e-transit-custom-2026",
+    false
+   ]
+  ]
+ },
+ "etc_price": {
+  "label": "Ford E-Transit Custom review 2026, Van Reviewer",
+  "links": [
+   [
+    "vanreviewer.co.uk",
+    "https://vanreviewer.co.uk/ford/e-transit-custom/review/2622/",
+    false
+   ],
+   [
+    "carwow.co.uk",
+    "https://www.carwow.co.uk/ford/e-transit-custom",
+    false
+   ]
+  ]
+ },
+ "etc_range": {
+  "label": "2026 Ford E-Transit Custom update, Van Reviewer",
+  "links": [
+   [
+    "vanreviewer.co.uk",
+    "https://vanreviewer.co.uk/news/new-2026-e-transit-custom-gets-more-range-and-faster-charging/",
+    false
+   ],
+   [
+    "autotrader.co.uk",
+    "https://www.autotrader.co.uk/vans/content/ford-e-transit-custom-panel-van-review-2026",
+    false
+   ]
+  ]
+ },
+ "etc_spec": {
+  "label": "Ford E-Transit Custom review, Fleet News",
+  "links": [
+   [
+    "fleetnews.co.uk",
+    "https://www.fleetnews.co.uk/van/reviews/ford-e-transit-custom",
+    false
+   ]
+  ]
+ },
+ "etc_tow": {
+  "label": "Ford E-Transit Custom road test, What Van?",
+  "links": [
+   [
+    "whatvan.co.uk",
+    "https://whatvan.co.uk/?p=3626",
+    false
+   ]
+  ]
+ },
+ "etcustom": {
+  "label": "Ford E-Transit Custom battery and cells, Van Reviewer",
+  "links": [
+   [
+    "vanreviewer.co.uk",
+    "https://vanreviewer.co.uk/battery-charging-range/what-is-the-ford-e-transit-custom-battery-range/",
+    false
+   ]
+  ]
+ },
+ "etransit": {
+  "label": "Ford battery partners, Ford Authority",
+  "links": [
+   [
+    "fordauthority.com",
+    "https://fordauthority.com/2023/10/ford-ev-partner-lg-biggest-battery-producer-outside-china",
+    false
+   ]
+  ]
+ },
+ "evguide_cheapest": {
+  "label": "Cheapest electric vans, EV Guide",
+  "links": [
+   [
+    "evguide.uk",
+    "https://fleet.evguide.uk/best/cheapest-electric-vans",
+    false
+   ]
+  ]
+ },
+ "fn_esprinter": {
+  "label": "Mercedes-Benz eSprinter review, Fleet News",
+  "links": [
+   [
+    "fleetnews.co.uk",
+    "https://www.fleetnews.co.uk/van/reviews/mercedes-benz-esprinter-review",
+    false
+   ],
+   [
+    "vanfleetworld.co.uk",
+    "https://vanfleetworld.co.uk/road-test-mercedes-benz-esprinter/",
+    false
+   ]
+  ]
+ },
+ "fn_etransit": {
+  "label": "Ford E-Transit range boost, Fleet News",
+  "links": [
+   [
+    "fleetnews.co.uk",
+    "https://www.fleetnews.co.uk/news/ford-e-transit-gets-a-range-boost",
+    false
+   ],
+   [
+    "vanreviewer.co.uk",
+    "https://vanreviewer.co.uk/battery-charging-range/what-is-the-ford-e-transit-battery-range/",
+    false
+   ]
+  ]
+ },
+ "fn_farizon": {
+  "label": "Farizon SV pricing, payload and range, Fleet News",
+  "links": [
+   [
+    "fleetnews.co.uk",
+    "https://fleetnews.co.uk/news/farizon-sv-pricing-payload-and-range-confirmed",
+    false
+   ]
+  ]
+ },
+ "freightway": {
+  "label": "Electric Freightway trial cost findings, CV Show",
+  "links": [
+   [
+    "cvshow.com",
+    "https://news.cvshow.com/news/trial-finds-costs-are-lower-for-some-electric-truck-operations",
+    false
+   ],
+   [
+    "fleetnews.co.uk",
+    "https://www.fleetnews.co.uk/news/electric-hgv-trial-passes-half-a-million-zero-emission-miles",
+    false
+   ]
+  ]
+ },
+ "fw_master": {
+  "label": "Renault Master E-Tech on sale, Fleet World",
+  "links": [
+   [
+    "fleetworld.co.uk",
+    "https://fleetworld.co.uk/renault-master-e-tech-fully-electric-van-on-sale-priced-from-37500",
+    false
+   ]
+  ]
+ },
+ "govuk_caz": {
+  "label": "Clean Air Zones and vehicle checker, GOV.UK",
+  "links": [
+   [
+    "gov.uk",
+    "https://www.gov.uk/clean-air-zones",
+    true
+   ]
+  ]
+ },
+ "grant": {
+  "label": "Zero emission van and truck grants from April 2026, Fleet News",
+  "links": [
+   [
+    "fleetnews.co.uk",
+    "https://www.fleetnews.co.uk/news/depot-charging-boost-with-new-funding-for-plug-in-van-and-truck-grants",
+    false
+   ],
+   [
+    "trans.info",
+    "https://trans.info/en/uk-electric-truck-grants-464854",
+    false
+   ]
+  ]
+ },
+ "gridserve": {
+  "label": "GRIDSERVE opens UK's first public electric HGV charging hubs, Fleet News",
+  "links": [
+   [
+    "fleetnews.co.uk",
+    "https://www.fleetnews.co.uk/news/gridserve-opens-uk-s-first-public-electric-hgv-charging-hubs",
+    false
+   ]
+  ]
+ },
+ "h126": {
+  "label": "First-half 2026 HGV registrations, Motor Transport",
+  "links": [
+   [
+    "motortransport.co.uk",
+    "https://motortransport.co.uk/industry-news/hgv-market-falls-in-q2-while-uptake-of-zero-emission-trucks-sees-marginal-increase/90738.article",
+    false
+   ],
+   [
+    "greenfleet.net",
+    "https://greenfleet.net/node/20440",
+    false
+   ]
+  ]
+ },
+ "hj_kangoo": {
+  "label": "Renault Kangoo E-Tech review, Honest John",
+  "links": [
+   [
+    "honestjohn.co.uk",
+    "https://vans.honestjohn.co.uk/renault/kangoo-e-tech",
+    false
+   ]
+  ]
+ },
+ "hj_movano": {
+  "label": "Vauxhall Movano Electric review, Honest John",
+  "links": [
+   [
+    "honestjohn.co.uk",
+    "https://vans.honestjohn.co.uk/vauxhall/movano-electric",
+    false
+   ]
+  ]
+ },
+ "idb_dc": {
+  "label": "Volkswagen LCV line-up and ID. Buzz charging, Fleet News",
+  "links": [
+   [
+    "fleetnews.co.uk",
+    "https://www.fleetnews.co.uk/news/volkswagen-s-id-buzz-gtx-leads-new-lcv-model-offensive",
+    false
+   ]
+  ]
+ },
+ "idb_lwb": {
+  "label": "Long-wheelbase ID. Buzz Cargo launch, electrive",
+  "links": [
+   [
+    "electrive.com",
+    "https://www.electrive.com/2026/09/23/volkswagen-launches-long-wheelbase-version-of-the-id-buzz-cargo-for-e48490/",
+    false
+   ],
+   [
+    "elektroquatsch.de",
+    "https://www.elektroquatsch.de/artikel/id-buzz-cargo-lwb-laderaum-v2l-preis",
+    false
+   ]
+  ]
+ },
+ "idb_spec": {
+  "label": "Volkswagen ID. Buzz Cargo review, Carwow",
+  "links": [
+   [
+    "carwow.co.uk",
+    "https://www.carwow.co.uk/volkswagen/id-buzz-lcv",
+    false
+   ],
+   [
+    "evguide.uk",
+    "https://fleet.evguide.uk/vans/volkswagen/id-buzz-cargo",
+    false
+   ]
+  ]
+ },
+ "idb_vd": {
+  "label": "Volkswagen ID. Buzz Cargo: everything you need to know, Vans Direct",
+  "links": [
+   [
+    "vansdirect.co.uk",
+    "https://www.vansdirect.co.uk/blognews/volkswagen-id.buzz-cargo-everything-you-need-to-know/",
+    false
+   ]
+  ]
+ },
+ "idbuzz": {
+  "label": "ID. Buzz Cargo long-wheelbase launch, electrive",
+  "links": [
+   [
+    "electrive.com",
+    "https://www.electrive.com/2026/09/23/volkswagen-launches-long-wheelbase-version-of-the-id-buzz-cargo-for-e48490/",
+    false
+   ]
+  ]
+ },
+ "jan26": {
+  "label": "Temporary truck grant increase, January to March 2026, GOV.UK",
+  "links": [
+   [
+    "gov.uk",
+    "https://www.gov.uk/government/news/boost-for-british-business-as-government-slashes-cost-of-electric-lorries-by-up-to-120000",
+    true
+   ],
+   [
+    "electrive.com",
+    "https://www.electrive.com/2026/01/06/uk-boosts-purchase-grants-for-electric-hgvs-with-six-figure-subsidies",
+    false
+   ]
+  ]
+ },
+ "lfpnmc": {
+  "label": "LFP vs NMC batteries for fleets, EV Infrastructure News",
+  "links": [
+   [
+    "evinfrastructurenews.com",
+    "https://www.evinfrastructurenews.com/ev-battery/lfp-vs-nmc-battery-comparison-fleet-guide",
+    false
+   ]
+  ]
+ },
+ "licence": {
+  "label": "Driving licence categories, GOV.UK",
+  "links": [
+   [
+    "gov.uk",
+    "https://www.gov.uk/driving-licence-categories",
+    true
+   ]
+  ]
+ },
+ "maritime": {
+  "label": "Maritime Transport deploys electric HGV fleet, Multimodal",
+  "links": [
+   [
+    "multimodal.org.uk",
+    "https://www.multimodal.org.uk/article/maritime-transport-begins-nationwide-deployment-of-electric-hgv-fleet",
+    false
+   ]
+  ]
+ },
+ "master": {
+  "label": "Renault Master E-Tech battery update, electrive",
+  "links": [
+   [
+    "electrive.com",
+    "https://electrive.com/2026/07/08/renault-refreshes-master-e-tech-with-battery-and-comfort-upgrades",
+    false
+   ]
+  ]
+ },
+ "milence": {
+  "label": "Milence opens its first UK hub in Immingham, Fleet News",
+  "links": [
+   [
+    "fleetnews.co.uk",
+    "https://www.fleetnews.co.uk/news/milence-opens-its-first-uk-electric-hgv-charging-hub-in-immingham",
+    false
+   ],
+   [
+    "commercialmotor.com",
+    "https://www.commercialmotor.com/news/article/milence-electric-charging-hub-in-immingham-now-open-for-business",
+    false
+   ]
+  ]
+ },
+ "oxford": {
+  "label": "Oxford Zero Emission Zone, Oxfordshire County Council",
+  "links": [
+   [
+    "oxfordshire.gov.uk",
+    "https://www.oxfordshire.gov.uk/node/7008",
+    true
+   ],
+   [
+    "busandcoachbuyer.com",
+    "https://www.busandcoachbuyer.com/?p=39409",
+    false
+   ],
+   [
+    "motorway.co.uk",
+    "https://motorway.co.uk/sell-my-car/guides/oxford-clean-air-zone",
+    false
+   ]
+  ]
+ },
+ "peugeot_caz": {
+  "label": "Clean Air Zone charges cost van drivers almost £800 a year, Peugeot UK",
+  "links": [
+   [
+    "stellantis.com",
+    "https://www.media.stellantis.com/uk-en/peugeot/press/clean-air-zone-charges-cost-uk-van-drivers-almost-800-per-year-peugeot-research-reveals",
+    false
+   ],
+   [
+    "fleetworld.co.uk",
+    "https://fleetworld.co.uk/?p=138919",
+    false
+   ]
+  ]
+ },
+ "phaseout": {
+  "label": "Phasing out the sale of new non-zero emission HGVs: consultation outcome, GOV.UK",
+  "links": [
+   [
+    "gov.uk",
+    "https://gov.uk/government/consultations/heavy-goods-vehicles-ending-the-sale-of-new-non-zero-emission-models/outcome/outcome-and-response-to-the-consultation-on-when-to-phase-out-the-sale-of-new-non-zero-emission-hgvs",
+    true
+   ]
+  ]
+ },
+ "portal": {
+  "label": "Using the zero emission vehicle grant portal, GOV.UK",
+  "links": [
+   [
+    "gov.uk",
+    "https://www.gov.uk/government/publications/plug-in-vehicle-grant-portal-guidance/using-the-plug-in-vehicle-grant-portal",
+    true
+   ]
+  ]
+ },
+ "portsmouth": {
+  "label": "Portsmouth Clean Air Zone, Wightlink",
+  "links": [
+   [
+    "wightlink.co.uk",
+    "https://www.wightlink.co.uk/information/portsmouth-clean-air-zone",
+    false
+   ],
+   [
+    "cittimagazine.co.uk",
+    "https://www.cittimagazine.co.uk/news/emissions-sustainability/portsmouth-charging-clean-air-zone-launches.html",
+    false
+   ]
+  ]
+ },
+ "pv5": {
+  "label": "Kia PV5 battery supplier, The Driven",
+  "links": [
+   [
+    "thedriven.io",
+    "https://thedriven.io/?p=193711",
+    false
+   ],
+   [
+    "just-auto.com",
+    "https://www.just-auto.com/?p=181588",
+    false
+   ]
+  ]
+ },
+ "pv5_dc": {
+  "label": "Kia PV5 Cargo review and charging, Carwow",
+  "links": [
+   [
+    "carwow.co.uk",
+    "https://www.carwow.co.uk/kia/pv5-lcv",
+    false
+   ]
+  ]
+ },
+ "pv5_price": {
+  "label": "Kia PV5 UK pricing, Autotrader",
+  "links": [
+   [
+    "autotrader.co.uk",
+    "https://www.autotrader.co.uk/vans/content/kia-reveals-uk-specification-and-pricing-for-pv5-electric-vans",
+    false
+   ],
+   [
+    "kia.com",
+    "https://www.kia.com/uk/pbv/government-grants/",
+    false
+   ]
+  ]
+ },
+ "pv5_rev": {
+  "label": "Kia PV5 Cargo review, Fleet News",
+  "links": [
+   [
+    "fleetnews.co.uk",
+    "https://www.fleetnews.co.uk/van/reviews/kia-pv5-cargo",
+    false
+   ],
+   [
+    "vanaways.co.uk",
+    "https://www.vanaways.co.uk/news/kia-pv5-cargo-full-vanaways-review",
+    false
+   ]
+  ]
+ },
+ "pv5_spec": {
+  "label": "Kia PV5 prices and specifications, What Van?",
+  "links": [
+   [
+    "whatvan.co.uk",
+    "https://www.whatvan.co.uk/news/new-kia-pv5-specs-and-prices-announced/",
+    false
+   ],
+   [
+    "honestjohn.co.uk",
+    "https://vans.honestjohn.co.uk/van-news/new-vans/2025-04/kia-reveals-new-pv5-electric-van/",
+    false
+   ]
+  ]
+ },
+ "rha": {
+  "label": "RHA electric HGV payload survey, Motor Transport",
+  "links": [
+   [
+    "motortransport.co.uk",
+    "https://motortransport.co.uk/outdated-electric-hgv-payload-rules-obstructing-switch-to-net-zero-fleets-warns-rha/90386.article",
+    false
+   ],
+   [
+    "transportoperator.co.uk",
+    "https://transportoperator.co.uk/2026/03/31/rha-calls-for-changes-to-maximum-weight-for-electric-trucks/",
+    false
+   ]
+  ]
+ },
+ "roo": {
+  "label": "EU-UK rules of origin for electric vehicles extended to end of 2026, Council of the EU",
+  "links": [
+   [
+    "consilium.europa.eu",
+    "https://www.consilium.europa.eu/en/press/press-releases/2023/12/21/eu-uk-relations-council-greenlights-extension-of-current-rules-of-origin-for-electric-vehicles-until-the-end-of-2026/",
+    true
+   ],
+   [
+    "am-online.com",
+    "https://www.am-online.com/news/most-eu-built-evs-could-face-10-uk-tariffs-from-2027",
+    false
+   ]
+  ]
+ },
+ "sau": {
+  "label": "Subsidy Advice Unit report on the Zero Emission Truck and Van grants, GOV.UK",
+  "links": [
+   [
+    "assets.publishing.service.gov.uk",
+    "https://assets.publishing.service.gov.uk/media/69c145efcfa346b9d4704a82/Commercial_Vehicles_Final_Report.pdf",
+    true
+   ]
+  ]
+ },
+ "scot_lez": {
+  "label": "Low emission zone penalty charges, City of Edinburgh Council",
+  "links": [
+   [
+    "edinburgh.gov.uk",
+    "https://www.edinburgh.gov.uk/low-emission-zone/lez-penalty-charges/3",
+    true
+   ],
+   [
+    "traffic.gov.scot",
+    "https://www.traffic.gov.scot/greener-travel/what-are-low-emission-zones",
+    true
+   ]
+  ]
+ },
+ "sheffield": {
+  "label": "Clean Air Zone charges, Sheffield City Council",
+  "links": [
+   [
+    "sheffield.gov.uk",
+    "https://www.sheffield.gov.uk/clean-air-zone-sheffield/charges-and-refunds/clean-air-zone-charges-and-how-pay",
+    true
+   ],
+   [
+    "fleetworld.co.uk",
+    "https://fleetworld.co.uk/sheffield-clean-air-zone-goes-live/",
+    false
+   ]
+  ]
+ },
+ "smmt25": {
+  "label": "2025 HGV registrations, SMMT",
+  "links": [
+   [
+    "smmt.co.uk",
+    "https://www.smmt.co.uk/hgv-demand-dips-in-2025-as-nascent-zev-uptake-grows/",
+    false
+   ],
+   [
+    "motortransport.co.uk",
+    "https://motortransport.co.uk/freightcarbonzero/ehgv-uptake-surges-170-as-market-downturn-masks-early-electrification-shift/89416.article",
+    false
+   ]
+  ]
+ },
+ "sne": {
+  "label": "Global EV battery market share 2025 (SNE Research), CnEVPost",
+  "links": [
+   [
+    "cnevpost.com",
+    "https://cnevpost.com/2026/02/04/global-ev-battery-market-share-2025/",
+    false
+   ],
+   [
+    "batteryindustry.net",
+    "https://batteryindustry.net/catl-leads-worldwide-ev-battery-rankings-new-sne-research-data-shows/",
+    false
+   ]
+  ]
+ },
+ "stellantis": {
+  "label": "CATL to supply Stellantis with LFP cells in Europe, Gasgoo",
+  "links": [
+   [
+    "gasgoo.com",
+    "https://autonews.gasgoo.com/articles/news/catl-to-supply-stellantis-with-battery-cells-modules-for-ev-production-in-europe-70029555",
+    false
+   ]
+  ]
+ },
+ "tectrans": {
+  "label": "CATL launches Tectrans II for commercial vehicles, Battery Tech",
+  "links": [
+   [
+    "battery-tech.net",
+    "https://battery-tech.net/battery-markets-news/catl-launches-tectrans-ii-battery-for-commercial-vehicles/",
+    false
+   ]
+  ]
+ },
+ "tfl_cc": {
+  "label": "Changes to the Congestion Charge from January 2026, TfL",
+  "links": [
+   [
+    "tfl.gov.uk",
+    "https://content.tfl.gov.uk/02-26-tph-notice-changes-to-the-congestion-charge-scheme.pdf",
+    true
+   ],
+   [
+    "londonist.com",
+    "https://londonist.com/london/transport/the-congestion-charge-is-going-up-and-electric-vehicles-will-no-longer-be-exempt",
+    false
+   ],
+   [
+    "electrive.com",
+    "https://www.electrive.com/2025/11/14/london-confirms-new-congestion-charge",
+    false
+   ]
+  ]
+ },
+ "tfl_ulez": {
+  "label": "ULEZ: where and when, TfL",
+  "links": [
+   [
+    "tfl.gov.uk",
+    "https://tfl.gov.uk/modes/driving/ultra-low-emission-zone/ulez-where-and-when",
+    true
+   ],
+   [
+    "hillingdon.gov.uk",
+    "https://www.hillingdon.gov.uk/ulez",
+    true
+   ]
+  ]
+ },
+ "tyneside": {
+  "label": "Clean Air Zone charges for vans, Peugeot UK research",
+  "links": [
+   [
+    "stellantis.com",
+    "https://www.media.stellantis.com/uk-en/peugeot/press/clean-air-zone-charges-cost-uk-van-drivers-almost-800-per-year-peugeot-research-reveals",
+    false
+   ],
+   [
+    "vansdirect.co.uk",
+    "https://www.vansdirect.co.uk/blognews/uk-clean-air-zones/",
+    false
+   ]
+  ]
+ },
+ "viv_fn": {
+  "label": "Vauxhall Vivaro review, Fleet News",
+  "links": [
+   [
+    "fleetnews.co.uk",
+    "https://www.fleetnews.co.uk/van/reviews/vauxhall-vivaro",
+    false
+   ]
+  ]
+ },
+ "viv_price": {
+  "label": "Vivaro panel van prices, Vauxhall UK",
+  "links": [
+   [
+    "vauxhall.co.uk",
+    "https://www.vauxhall.co.uk/vans/all-new-vivaro/model-overview.html",
+    false
+   ]
+  ]
+ },
+ "viv_spec": {
+  "label": "Vauxhall Vivaro Electric review, Van Reviewer",
+  "links": [
+   [
+    "vanreviewer.co.uk",
+    "https://vanreviewer.co.uk/vauxhall/vivaro-electric/review/4016/",
+    false
+   ],
+   [
+    "honestjohn.co.uk",
+    "https://vans.honestjohn.co.uk/guides/best-electric-vans/",
+    false
+   ]
+  ]
+ },
+ "vivaro": {
+  "label": "Vauxhall Vivaro Life Electric 75 kWh battery data, EV Database",
+  "links": [
+   [
+    "ev-database.org",
+    "https://ev-database.org/uk/car/2262/Vauxhall-Vivaro-Life-Electric-75-kWh",
+    false
+   ]
+  ]
+ },
+ "volvo700": {
+  "label": "Volvo FH Aero Electric range increase, electrive",
+  "links": [
+   [
+    "electrive.com",
+    "https://www.electrive.com/2026/04/14/volvo-trucks-increases-range-of-flagship-e-truck-to-700-km/",
+    false
+   ]
+  ]
+ },
+ "volvosdi": {
+  "label": "Volvo Trucks opens battery plant in Belgium, Automotive World",
+  "links": [
+   [
+    "automotiveworld.com",
+    "https://www.automotiveworld.com/news/volvo-trucks-opens-battery-plant-in-belgium/",
+    false
+   ]
+  ]
+ },
+ "warranty": {
+  "label": "Electric van battery warranties, Volkswagen Commercial Vehicles",
+  "links": [
+   [
+    "volkswagen-vans.co.uk",
+    "https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/working-and-living-electric/electric-warranties.html",
+    true
+   ],
+   [
+    "nissan.co.uk",
+    "https://nissan.co.uk/vehicles/new-vehicles/townstar/electric-van.html",
+    true
+   ]
+  ]
+ },
+ "whatcar_epartner": {
+  "label": "Peugeot e-Partner review, What Car?",
+  "links": [
+   [
+    "whatcar.com",
+    "https://www.whatcar.com/peugeot/partner-electric/van/review/n20151",
+    false
+   ]
+  ]
+ },
+ "whatvan_courier": {
+  "label": "Ford E-Transit Courier review, What Van?",
+  "links": [
+   [
+    "whatvan.co.uk",
+    "https://www.whatvan.co.uk/van-reviews/ford-e-transit-courier-review/",
+    false
+   ]
+  ]
+ },
+ "winter_range": {
+  "label": "Electric van range in winter, Fleet News",
+  "links": [
+   [
+    "fleetnews.co.uk",
+    "https://www.fleetnews.co.uk/news/latest-fleet-news/electric-fleet-news/2023/07/07/fleets-urged-test-electric-vans-in-winter-as-call-for-wltp-change-made",
+    false
+   ]
+  ]
+ },
+ "zaragoza": {
+  "label": "Stellantis and CATL battery plant in Spain, New Mobility",
+  "links": [
+   [
+    "newmobility.news",
+    "https://newmobility.news/2024/12/11/stellantis-and-catl-pump-e4-1-billion-in-joint-spanish-battery-plant/",
+    false
+   ]
+  ]
+ },
+ "zehid": {
+  "label": "Locations for 54 zero emission HGV hubs, Zemo Partnership",
+  "links": [
+   [
+    "zemo.org.uk",
+    "https://www.zemo.org.uk/news-events/news,transport-minister-announces-locations-for-new-network-of-54-zero-emission-_4721.htm",
+    false
+   ]
+  ]
+ }
+}

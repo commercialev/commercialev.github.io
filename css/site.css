@@ -279,3 +279,9 @@ h1 {
   .doc table.wide { font-size: .8rem; }
   .doc table.wide th, .doc table.wide td { padding: 8px 4px; }
 }
+
+/* Comparison tables: keep columns readable and the row label in view when scrolling sideways */
+.doc table.compare { min-width: 640px; }
+.doc table.compare td:first-child, .doc table.compare th:first-child { position: sticky; left: 0; z-index: 1; background: var(--bg); width: 18%; }
+.swipe-hint { display: none; font-size: .85rem; color: var(--soft); margin: 0 0 6px; }
+@media (max-width: 700px) { .swipe-hint { display: block; } }

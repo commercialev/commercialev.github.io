@@ -42,7 +42,7 @@ BODY = r'''    <p class="meta">Updated 10 October 2026. Charges come from TfL, c
     <h2 id="zones">Which UK zones charge vans?</h2>
     <p class="swipe-hint" aria-hidden="true">Scroll the table sideways to see every column.</p>
 {{zones_table}}
-    <p class="note">"Non-compliant" means a diesel van below Euro 6 or a petrol van below Euro 4. Greater Manchester, Leeds and other cities that planned charging zones aren't listed because they don't charge vans.</p>
+    <p class="note">"Non-compliant" means a diesel van below Euro 6 or a petrol van below Euro 4. Greater Manchester isn't listed: in January 2025 the government approved its plan to clean up the air without a charging zone, so vans aren't charged. [[gm_caz]]</p>
 
     <h2 id="yearly">How much does a clean air zone cost over a year?</h2>
     <p>For a van that has to pay, driving into the zone five days a week for a year (260 days): [[peugeot_caz]]</p>

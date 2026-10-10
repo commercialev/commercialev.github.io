@@ -273,3 +273,9 @@ h1 {
 .doc figure.chart figcaption { margin-top: 10px; font-size: .88rem; color: var(--soft); }
 .doc figure.chart picture { display: block; }
 @media (max-width: 640px) { .doc figure.chart img { max-width: 440px; margin: 0 auto; } }
+.doc table.wide td { white-space: normal; }
+.doc table.wide td:first-child { width: 26%; }
+@media (max-width: 400px) {
+  .doc table.wide { font-size: .8rem; }
+  .doc table.wide th, .doc table.wide td { padding: 8px 4px; }
+}

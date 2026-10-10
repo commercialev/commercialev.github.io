@@ -1,0 +1,456 @@
+{
+ "as_of": "2026-10-10",
+ "note": "One record per van. Every displayed figure is {\"v\": value, \"src\": [source keys in sources.json]}. Pages render their tables from this file, so change a figure here and rebuild.",
+ "vans": [
+  {
+   "id": "courier",
+   "size": "small",
+   "name": "Ford E-Transit Courier",
+   "battery": {
+    "v": "43kWh",
+    "src": [
+     "whatvan_courier"
+    ]
+   },
+   "range": {
+    "v": "182 miles",
+    "src": [
+     "whatvan_courier"
+    ]
+   },
+   "payload": {
+    "v": "698kg",
+    "src": [
+     "whatvan_courier"
+    ]
+   }
+  },
+  {
+   "id": "berlingo",
+   "size": "small",
+   "name": "Citroën ë-Berlingo / Peugeot e-Partner / Vauxhall Combo Electric / Fiat E-Doblò / Toyota Proace City Electric",
+   "battery": {
+    "v": "52kWh",
+    "src": [
+     "whatcar_epartner"
+    ]
+   },
+   "range": {
+    "v": "213 miles",
+    "src": [
+     "whatcar_epartner"
+    ]
+   },
+   "payload": {
+    "v": "759kg",
+    "src": [
+     "whatcar_epartner"
+    ]
+   }
+  },
+  {
+   "id": "kangoo",
+   "size": "small",
+   "name": "Renault Kangoo E-Tech / Nissan Townstar EV / Mercedes-Benz eCitan",
+   "battery": {
+    "v": "45kWh",
+    "src": [
+     "hj_kangoo"
+    ]
+   },
+   "range": {
+    "v": "186 miles",
+    "src": [
+     "hj_kangoo"
+    ]
+   },
+   "payload": {
+    "v": "764kg",
+    "src": [
+     "hj_kangoo"
+    ]
+   }
+  },
+  {
+   "id": "etc",
+   "size": "medium",
+   "name": "Ford E-Transit Custom",
+   "compare_name": "Ford E-Transit Custom",
+   "battery": {
+    "v": "71kWh usable",
+    "src": [
+     "etc_ford"
+    ]
+   },
+   "range": {
+    "v": "232 miles",
+    "src": [
+     "etc_range"
+    ]
+   },
+   "payload": {
+    "v": "1,088kg",
+    "src": [
+     "etc_range"
+    ]
+   },
+   "payload_detail": {
+    "v": "1,008–1,088kg",
+    "src": [
+     "etc_spec"
+    ]
+   },
+   "load": {
+    "v": "5.8–9.0m³",
+    "src": [
+     "etc_spec"
+    ]
+   },
+   "dc": {
+    "v": "125kW; 10–80% in about 29 min",
+    "src": [
+     "etc_ford"
+    ]
+   },
+   "towing": {
+    "v": "up to 2,000kg",
+    "src": [
+     "etc_tow"
+    ]
+   },
+   "price": {
+    "v": "about £43,630 before the grant",
+    "src": [
+     "etc_price"
+    ]
+   },
+   "cells": "Not published",
+   "chemistry": "NMC pouch cells",
+   "cell_note": "{battery} from 2026",
+   "cell_src": [
+    "etcustom",
+    "etc_ford"
+   ]
+  },
+  {
+   "id": "idb",
+   "size": "medium",
+   "name": "Volkswagen ID. Buzz Cargo",
+   "compare_name": "VW ID. Buzz Cargo",
+   "battery": {
+    "v": "79kWh",
+    "src": [
+     "idb_spec"
+    ]
+   },
+   "battery_note": {
+    "v": "a smaller battery is also offered",
+    "src": [
+     "idb_vd"
+    ]
+   },
+   "range": {
+    "v": "277 miles",
+    "src": [
+     "idb_spec"
+    ]
+   },
+   "payload": {
+    "v": "765kg",
+    "src": [
+     "idb_spec"
+    ]
+   },
+   "payload_detail": {
+    "v": "about 600–765kg",
+    "src": [
+     "idb_vd",
+     "idb_spec"
+    ]
+   },
+   "load": {
+    "v": "3.9m³",
+    "src": [
+     "idb_vd"
+    ]
+   },
+   "dc": {
+    "v": "185kW; 10–80% in 26 min",
+    "src": [
+     "idb_dc"
+    ]
+   },
+   "towing": {
+    "v": "1,000kg; 1,800kg with 4MOTION",
+    "src": [
+     "idb_vd"
+    ]
+   },
+   "price": {
+    "v": "£34,460",
+    "src": [
+     "idb_spec"
+    ]
+   },
+   "cells": "Not published",
+   "chemistry": "—",
+   "cell_note": "{battery} in the standard version; 86kWh in the long-wheelbase version, on order in Europe from September 2026",
+   "cell_src": [
+    "idbuzz"
+   ]
+  },
+  {
+   "id": "pv5",
+   "size": "medium",
+   "name": "Kia PV5 Cargo",
+   "compare_name": "Kia PV5 Cargo",
+   "battery": {
+    "v": "51.5 or 71.2kWh",
+    "src": [
+     "pv5_spec"
+    ]
+   },
+   "range": {
+    "v": "258 miles",
+    "src": [
+     "pv5_spec"
+    ]
+   },
+   "payload": {
+    "v": "790kg",
+    "src": [
+     "pv5_spec"
+    ]
+   },
+   "payload_detail": {
+    "v": "690–790kg",
+    "src": [
+     "pv5_rev"
+    ]
+   },
+   "load": {
+    "v": "4.4–5.1m³",
+    "src": [
+     "pv5_rev"
+    ]
+   },
+   "dc": {
+    "v": "150kW; 10–80% in under 30 min",
+    "src": [
+     "pv5_dc"
+    ]
+   },
+   "towing": {
+    "v": "not published in the UK specs we checked",
+    "src": []
+   },
+   "price": {
+    "v": "£27,645 before the grant; £22,645 after",
+    "src": [
+     "pv5_price"
+    ]
+   },
+   "cells": "CATL (71.2kWh pack)",
+   "chemistry": "NMC",
+   "cell_note": "Supplier of the smaller packs not published",
+   "cell_src": [
+    "pv5"
+   ]
+  },
+  {
+   "id": "vivaro",
+   "size": "medium",
+   "name": "Vauxhall Vivaro Electric / Citroën ë-Dispatch / Peugeot e-Expert / Fiat E-Scudo / Toyota Proace Electric",
+   "compare_name": "Vauxhall Vivaro Electric",
+   "battery_name": "Vauxhall Vivaro Electric and its Stellantis twins",
+   "battery": {
+    "v": "75kWh",
+    "src": [
+     "viv_spec"
+    ]
+   },
+   "range": {
+    "v": "205–219 miles, by version",
+    "src": [
+     "viv_spec"
+    ]
+   },
+   "payload": {
+    "v": "up to 1,226kg",
+    "src": [
+     "viv_spec"
+    ]
+   },
+   "payload_detail": {
+    "v": "up to 1,226kg",
+    "src": [
+     "viv_spec"
+    ]
+   },
+   "load": {
+    "v": "5.3–6.1m³",
+    "src": [
+     "viv_fn"
+    ]
+   },
+   "dc": {
+    "v": "100kW; 0–80% in about 45 min",
+    "src": [
+     "viv_fn"
+    ]
+   },
+   "towing": {
+    "v": "1,000kg",
+    "src": [
+     "viv_fn"
+    ]
+   },
+   "price": {
+    "v": "£38,450 after the grant",
+    "src": [
+     "viv_price"
+    ]
+   },
+   "cells": "Not published",
+   "chemistry": "NMC 622",
+   "cell_note": "{battery}, about 69kWh usable (figures for the Vivaro Life, which shares the battery)",
+   "cell_src": [
+    "vivaro"
+   ]
+  },
+  {
+   "id": "master",
+   "size": "large",
+   "name": "Renault Master E-Tech / Nissan Interstar-e",
+   "battery_name": "Renault Master E-Tech",
+   "battery": {
+    "v": "87kWh",
+    "src": [
+     "fw_master"
+    ]
+   },
+   "range": {
+    "v": "285 miles",
+    "src": [
+     "fw_master"
+    ]
+   },
+   "payload": {
+    "v": "1,625kg",
+    "src": [
+     "fw_master"
+    ]
+   },
+   "cells": "LG Energy Solution",
+   "chemistry": "NMC (mid-nickel from 2026)",
+   "cell_note": "{battery}, packs assembled at Renault's Batilly plant",
+   "cell_src": [
+    "master"
+   ]
+  },
+  {
+   "id": "esprinter",
+   "size": "large",
+   "name": "Mercedes-Benz eSprinter",
+   "battery": {
+    "v": "113kWh",
+    "src": [
+     "fn_esprinter"
+    ]
+   },
+   "range": {
+    "v": "277 miles",
+    "src": [
+     "fn_esprinter"
+    ]
+   },
+   "payload": {
+    "v": "about 1,000kg (long, high roof)",
+    "src": [
+     "fn_esprinter"
+    ]
+   },
+   "cells": "CATL",
+   "chemistry": "LFP",
+   "cell_note": "{battery} usable in the largest version",
+   "cell_src": [
+    "esprinter"
+   ]
+  },
+  {
+   "id": "movano",
+   "size": "large",
+   "name": "Vauxhall Movano Electric / Citroën ë-Relay / Peugeot e-Boxer / Fiat E-Ducato",
+   "battery": {
+    "v": "110kWh",
+    "src": [
+     "hj_movano"
+    ]
+   },
+   "range": {
+    "v": "261 miles",
+    "src": [
+     "hj_movano"
+    ]
+   },
+   "payload": {
+    "v": "1,480kg (4.25-tonne versions)",
+    "src": [
+     "hj_movano"
+    ]
+   }
+  },
+  {
+   "id": "etransit",
+   "size": "large",
+   "name": "Ford E-Transit",
+   "battery": {
+    "v": "89kWh",
+    "src": [
+     "fn_etransit"
+    ]
+   },
+   "range": {
+    "v": "250 miles",
+    "src": [
+     "fn_etransit"
+    ]
+   },
+   "payload": {
+    "v": "1,460kg (van)",
+    "src": [
+     "fn_etransit"
+    ]
+   },
+   "cells": "LG Energy Solution (reported)",
+   "chemistry": "—",
+   "cell_note": "Reported in 2023; Ford's suppliers can differ by market",
+   "cell_src": [
+    "etransit"
+   ]
+  },
+  {
+   "id": "farizon",
+   "size": "large",
+   "name": "Farizon SV",
+   "battery": {
+    "v": "67–106kWh",
+    "src": [
+     "fn_farizon"
+    ]
+   },
+   "range": {
+    "v": "247 miles",
+    "src": [
+     "fn_farizon"
+    ]
+   },
+   "payload": {
+    "v": "1,390kg",
+    "src": [
+     "fn_farizon"
+    ]
+   }
+  }
+ ]
+}

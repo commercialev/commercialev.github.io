@@ -1,0 +1,172 @@
+{
+ "as_of": "2026-10-10",
+ "days_per_year": 260,
+ "note": "Van rules for UK charging and low emission zones. daily = charge in pounds for a van that has to pay; null where vans are not charged a daily fee. Yearly costs on the page = daily x days_per_year (5 days a week, 52 weeks).",
+ "zones": [
+  {
+   "id": "london-cc",
+   "name": "London Congestion Charge",
+   "area": "Central London",
+   "type": "Congestion charge",
+   "who": "All petrol and diesel vans, including newer ones",
+   "charge": "£18 a day",
+   "daily": 18,
+   "hours": "7am–6pm Monday to Friday; 12pm–6pm weekends and bank holidays",
+   "electric": "£9 a day with Auto Pay (a 50% discount, falling to 25% in March 2030)",
+   "ev_daily": 9,
+   "src": [
+    "tfl_cc"
+   ]
+  },
+  {
+   "id": "london-ulez",
+   "name": "London ULEZ",
+   "area": "All London boroughs",
+   "type": "Ultra Low Emission Zone",
+   "who": "Vans up to 3.5 tonnes that don't meet Euro 6 (diesel) or Euro 4 (petrol)",
+   "charge": "£12.50 a day",
+   "daily": 12.5,
+   "hours": "24 hours, every day except Christmas Day",
+   "electric": "No charge",
+   "ev_daily": 0,
+   "src": [
+    "tfl_ulez"
+   ]
+  },
+  {
+   "id": "birmingham",
+   "name": "Birmingham Clean Air Zone",
+   "area": "Inside the A4540 Middleway ring road",
+   "type": "Class D clean air zone",
+   "who": "Vans that don't meet Euro 6 (diesel) or Euro 4 (petrol)",
+   "charge": "£8 a day",
+   "daily": 8,
+   "hours": "24 hours, every day",
+   "electric": "No charge",
+   "ev_daily": 0,
+   "src": [
+    "bham"
+   ]
+  },
+  {
+   "id": "bath",
+   "name": "Bath Clean Air Zone",
+   "area": "Bath city centre",
+   "type": "Class C clean air zone",
+   "who": "Non-compliant vans; private cars aren't charged",
+   "charge": "£9 a day",
+   "daily": 9,
+   "hours": "24 hours, every day",
+   "electric": "No charge",
+   "ev_daily": 0,
+   "src": [
+    "bath"
+   ]
+  },
+  {
+   "id": "bradford",
+   "name": "Bradford Clean Air Zone",
+   "area": "Bradford",
+   "type": "Class C+ clean air zone",
+   "who": "Non-compliant vans and minibuses, private or business; private cars aren't charged",
+   "charge": "£9 a day",
+   "daily": 9,
+   "hours": "Midnight to midnight, every day",
+   "electric": "No charge",
+   "ev_daily": 0,
+   "src": [
+    "bradford"
+   ]
+  },
+  {
+   "id": "bristol",
+   "name": "Bristol Clean Air Zone",
+   "area": "Central Bristol",
+   "type": "Class D clean air zone",
+   "who": "Non-compliant vans; non-compliant cars are charged too",
+   "charge": "£9 a day",
+   "daily": 9,
+   "hours": "24 hours, every day",
+   "electric": "No charge",
+   "ev_daily": 0,
+   "src": [
+    "bristol"
+   ]
+  },
+  {
+   "id": "sheffield",
+   "name": "Sheffield Clean Air Zone",
+   "area": "Inner ring road and city centre",
+   "type": "Class C clean air zone",
+   "who": "Vans that don't meet Euro 6 (diesel) or Euro 4 (petrol); private cars aren't charged",
+   "charge": "£10 a day",
+   "daily": 10,
+   "hours": "24 hours, every day",
+   "electric": "No charge",
+   "ev_daily": 0,
+   "src": [
+    "sheffield"
+   ]
+  },
+  {
+   "id": "tyneside",
+   "name": "Newcastle and Gateshead Clean Air Zone",
+   "area": "Newcastle and Gateshead city centres",
+   "type": "Class C clean air zone",
+   "who": "Non-compliant vans; cars aren't charged",
+   "charge": "£12.50 a day",
+   "daily": 12.5,
+   "hours": "Check the council's website",
+   "electric": "No charge",
+   "ev_daily": 0,
+   "src": [
+    "tyneside"
+   ]
+  },
+  {
+   "id": "oxford",
+   "name": "Oxford Zero Emission Zone",
+   "area": "Oxford city centre (pilot zone)",
+   "type": "Zero emission zone",
+   "who": "All petrol and diesel vans, including newer ones",
+   "charge": "£8 a day for a Euro 6 diesel; £20 for older diesels",
+   "daily": 8,
+   "hours": "7am–7pm, every day",
+   "electric": "No charge",
+   "ev_daily": 0,
+   "src": [
+    "oxford"
+   ]
+  },
+  {
+   "id": "portsmouth",
+   "name": "Portsmouth Clean Air Zone",
+   "area": "Portsmouth",
+   "type": "Class B clean air zone",
+   "who": "Vans aren't charged (only buses, coaches, taxis and HGVs)",
+   "charge": "No charge for vans",
+   "daily": null,
+   "hours": "—",
+   "electric": "No charge",
+   "ev_daily": 0,
+   "src": [
+    "portsmouth"
+   ]
+  },
+  {
+   "id": "scotland",
+   "name": "Glasgow, Edinburgh, Aberdeen and Dundee low emission zones",
+   "area": "City centres",
+   "type": "Low emission zones (no daily charge: non-compliant vans are banned)",
+   "who": "Vans that don't meet Euro 6 (diesel) or Euro 4 (petrol)",
+   "charge": "£60 penalty, doubling to £480 for repeat entries",
+   "daily": null,
+   "hours": "24 hours, every day",
+   "electric": "No charge",
+   "ev_daily": 0,
+   "src": [
+    "scot_lez"
+   ]
+  }
+ ]
+}

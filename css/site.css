@@ -288,3 +288,10 @@ h1 {
 
 .footer .footer-note { margin-top: 10px; font-size: .78rem; }
 .footer .footer-note a { text-decoration: underline; }
+
+/* Homepage overview */
+.hub-about { width: 100%; max-width: 680px; margin: 56px auto 0; text-align: left; color: var(--soft); }
+.hub-about h2 { margin: 0 0 12px; font-size: 1.15rem; color: var(--ink); }
+.hub-about ul { padding-left: 1.2em; }
+.hub-about li { margin-bottom: 8px; }
+.hub-about a { color: var(--green); }

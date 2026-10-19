@@ -9,11 +9,11 @@ META = {
     'crumb': 'Electric trucks and HGVs',
     'h1': 'Electric trucks and HGVs in the UK',
     'published': '2026-10-10',
-    'modified': '2026-10-10',
+    'modified': '2026-10-19',
 }
 
-BODY = r'''    <p class="meta">Updated 10 October 2026. Every figure links to its source. Grant rates, rules and specifications change, so check them before you buy. <a href="/about/">How we check facts</a>.</p>
-    <p>What a business needs to know before buying an electric lorry in the UK: the grant, the deadlines for new diesel trucks, the models on sale, charging, licences and running costs.</p>
+BODY = r'''    <p class="meta">Updated 19 October 2026. Every figure links to its source. Grant rates, rules and specifications change, so check them before you buy. <a href="/about/">How we check facts</a>.</p>
+    <p>An eHGV is an electric heavy goods vehicle: a truck or lorry over 3.5 tonnes that runs on a battery instead of a diesel engine. [[licence]] This guide covers what a business needs to know before buying one in the UK: the grant, the deadlines for new diesel trucks, the models on sale, charging, licences and running costs.</p>
 
     <section class="summary" aria-label="Quick answer">
       <h2>Quick answer</h2>

@@ -12,7 +12,7 @@ import re
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = 'https://commercialevs.co.uk'
-CSS_VERSION = 5  # bump when css/site.css changes, here and in hand-written pages
+CSS_VERSION = 6  # bump when css/site.css changes, here and in hand-written pages
 
 NAV = [('/electric-vans-uk/', 'Vans'), ('/electric-trucks-uk/', 'Trucks'), ('/electric-van-batteries/', 'Batteries'),
        ('/electric-van-fleets-uk/', 'Fleets'), ('/charging-an-electric-van/', 'Charging'),

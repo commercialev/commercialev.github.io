@@ -9,10 +9,10 @@ META = {
     'crumb': 'Clean air zones for vans',
     'h1': 'Clean air zones and ULEZ for vans: charges by city',
     'published': '2026-10-10',
-    'modified': '2026-10-10',
+    'modified': '2026-11-07',
 }
 
-BODY = r'''    <p class="meta">Updated 10 October 2026. Charges come from TfL, council websites and trade press, each linked below. Councils can change charges and boundaries, so check the council's own page before you travel. <a href="/about/">How we check facts</a>.</p>
+BODY = r'''    <p class="meta">Updated 7 November 2026. Charges come from TfL, council websites and trade press, each linked below. Councils can change charges and boundaries, so check the council's own page before you travel. <a href="/about/">How we check facts</a>.</p>
     <p>Which UK zones charge vans, how much they cost a day and over a year, and why an electric van avoids almost all of them.</p>
 
     <section class="summary" aria-label="Quick answer">
@@ -30,7 +30,7 @@ BODY = r'''    <p class="meta">Updated 10 October 2026. Charges come from TfL, c
       <ol>
         <li><a href="#zones">Every zone that affects vans</a></li>
         <li><a href="#yearly">What a zone costs over a year</a></li>
-        <li><a href="#which-vans">Which vans have to pay</a></li>
+        <li><a href="#which-vans">Which vans are ULEZ compliant</a></li>
         <li><a href="#electric">Do electric vans pay?</a></li>
         <li><a href="#london">London: ULEZ and Congestion Charge</a></li>
         <li><a href="#scotland">Scotland's low emission zones</a></li>
@@ -50,8 +50,14 @@ BODY = r'''    <p class="meta">Updated 10 October 2026. Charges come from TfL, c
     <p class="note">Oxford's £8 is the rate for a Euro 6 diesel; older diesels pay £20 a day, or £5,200 a year. The Congestion Charge applies to every petrol and diesel van, however new. [[oxford]] [[tfl_cc]]</p>
     <p>Those charges add to a diesel van's higher running costs. See <a href="/diesel-vs-electric-vans/">diesel vs electric vans</a> for the full cost per mile.</p>
 
-    <h2 id="which-vans">Which vans have to pay?</h2>
-    <p>In every clean air zone, the London ULEZ and Scotland's low emission zones, a diesel van needs to meet the Euro 6 emissions standard and a petrol van Euro 4. Vans that meet them don't pay. [[tfl_ulez]] [[bham]] [[scot_lez]] Use the government's vehicle checker to see whether your van complies before you drive in. [[govuk_caz]]</p>
+    <h2 id="which-vans">Which vans are ULEZ compliant?</h2>
+    <p>The same standards apply in the London ULEZ, every clean air zone and Scotland's low emission zones. Vans that meet them don't pay. [[tfl_ulez]] [[bham]] [[scot_lez]]</p>
+    <ul>
+      <li><strong>Diesel vans:</strong> compliant if they meet Euro 6. Most diesel vans sold since September 2016 do. [[ulez_vans]]</li>
+      <li><strong>Petrol vans:</strong> compliant if they meet Euro 4, which generally means registered from January 2006. [[scot_lez]]</li>
+      <li><strong>Electric vans:</strong> always compliant. [[tfl_ulez]]</li>
+      <li><strong>Check yours:</strong> enter the registration in TfL's vehicle checker for London, or the government's checker for other zones, before you drive in. [[ulez_vans]] [[govuk_caz]]</li>
+    </ul>
     <p>Two charges are different: London's Congestion Charge and Oxford's Zero Emission Zone apply to every petrol and diesel van, however new. [[tfl_cc]] [[oxford]]</p>
 
     <h2 id="electric">Do electric vans pay clean air zone charges?</h2>

@@ -139,7 +139,16 @@ h1 {
 .doc strong { color: var(--ink); }
 .doc ul, .doc ol { padding-left: 1.3em; }
 .doc li { margin-bottom: 8px; }
-.doc a[href^="#s"]:not([href="#sources"]) { font-size: .8em; text-decoration: none; }
+/* Citation markers link to #s1, #s2 ...; matching on a digit keeps #small, #scotland etc. full size */
+.doc a[href^="#s1"],
+.doc a[href^="#s2"],
+.doc a[href^="#s3"],
+.doc a[href^="#s4"],
+.doc a[href^="#s5"],
+.doc a[href^="#s6"],
+.doc a[href^="#s7"],
+.doc a[href^="#s8"],
+.doc a[href^="#s9"] { font-size: .8em; text-decoration: none; }
 .doc .btn { color: #06210f; text-decoration: none; }
 
 .crumbs { font-size: .85rem; color: var(--soft); }

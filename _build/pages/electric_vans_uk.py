@@ -9,10 +9,10 @@ META = {
     'crumb': 'Electric vans compared',
     'h1': 'Electric vans in the UK: range, payload and price compared',
     'published': '2026-10-05',
-    'modified': '2026-10-10',
+    'modified': '2026-11-07',
 }
 
-BODY = r'''    <p class="meta">Updated 10 October 2026. Every figure links to its source. Specifications vary by version, so check the exact van with the dealer. <a href="/about/">How we check facts</a>.</p>
+BODY = r'''    <p class="meta">Updated 7 November 2026. Every figure links to its source. Specifications vary by version, so check the exact van with the dealer. <a href="/about/">How we check facts</a>.</p>
 
     <section class="summary" aria-label="Quick answer">
       <h2>Quick answer</h2>
@@ -59,15 +59,9 @@ BODY = r'''    <p class="meta">Updated 10 October 2026. Every figure links to it
     <h2 id="payload">Which electric van carries the most?</h2>
     <p>Among panel vans, the Renault Master E-Tech (up to 1,625kg), the Vauxhall Movano Electric and its twins in 4.25-tonne form (up to 1,480kg) and the Ford E-Transit (up to 1,460kg). The heaviest-payload medium van is the Vauxhall Vivaro Electric and its twins (up to 1,226kg), followed by the Ford E-Transit Custom (up to 1,088kg). [[fw_master]] [[fn_etransit]] [[hj_movano]] [[viv_spec]] [[etc_range]]</p>
 
-    <h2 id="price">How much does an electric van cost?</h2>
-    <p>Launch list prices, excluding VAT:</p>
-    <ul>
-      <li><strong>Ford E-Transit Courier:</strong> from £27,000 before its £2,500 small-van grant, so about £24,500 after it. [[whatvan_courier]] [[evguide_cheapest]]</li>
-      <li><strong>Kia PV5 Cargo:</strong> from £27,645 with the standard battery or £30,145 with the long-range battery, before the £5,000 grant. That makes it the cheapest electric van after the grant, from £22,645. [[pv5_price]]</li>
-      <li><strong>Volkswagen ID. Buzz Cargo:</strong> from £34,460. [[idb_spec]]</li>
-      <li><strong>Renault Master E-Tech:</strong> from £37,500, including the grant. [[fw_master]]</li>
-      <li><strong>Farizon SV:</strong> from £45,000, rising to £56,000. [[fn_farizon]]</li>
-    </ul>
+    <h2 id="price">How much does an electric van cost in the UK?</h2>
+    <p>From about £22,645 excluding VAT after the grant, for the Kia PV5 Cargo. Makers quote prices differently, some before the grant and some after, so the table says which. [[pv5_price]]</p>
+{{price_table}}
     <p>Dealers often discount electric vans heavily, so these are starting points. The <a href="/commercial-electric-vehicles-uk/#grant">Zero Emission Van Grant</a>, which replaced the plug-in van grant in April 2026, takes up to £2,500 off small vans and £5,000 off larger ones, and the dealer applies it for you.</p>
 
     <h2 id="real-range">How far will an electric van really go?</h2>
@@ -103,8 +97,19 @@ def vans_table(data, size):
             '      <tbody>\n' + '\n'.join(rows) + '\n      </tbody>\n    </table></div>')
 
 
+def price_table(data):
+    rows = []
+    for v in sorted((v for v in data['vans'] if 'price' in v), key=lambda v: v['price_from']):
+        name = v.get('compare_name', v['name'].split(' / ')[0])
+        rows.append(f"        <tr><td>{name}</td><td>{v['size'].capitalize()}</td><td>{v['price']['v']} {refs(v['price']['src'])}</td></tr>")
+    return ('    <div class="table-wrap"><table class="wide">\n'
+            '      <caption>Electric van list prices from, excluding VAT, lowest first</caption>\n'
+            '      <thead><tr><th>Van</th><th>Size</th><th>Price from, excluding VAT</th></tr></thead>\n'
+            '      <tbody>\n' + '\n'.join(rows) + '\n      </tbody>\n    </table></div>')
+
+
 def build(data):
-    body = BODY
+    body = BODY.replace('{{price_table}}', price_table(data))
     for size in CAPTIONS:
         body = body.replace('{{vans_table:%s}}' % size, vans_table(data, size))
     return META['slug'], page(**META, body=body)

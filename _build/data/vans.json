@@ -23,7 +23,15 @@
     "src": [
      "whatvan_courier"
     ]
-   }
+   },
+   "price": {
+    "v": "£27,000 before the £2,500 grant; about £24,500 after",
+    "src": [
+     "whatvan_courier",
+     "evguide_cheapest"
+    ]
+   },
+   "price_from": 27000
   },
   {
    "id": "berlingo",
@@ -130,7 +138,8 @@
    "cell_src": [
     "etcustom",
     "etc_ford"
-   ]
+   ],
+   "price_from": 43630
   },
   {
    "id": "idb",
@@ -197,7 +206,8 @@
    "cell_note": "{battery} in the standard version; 86kWh in the long-wheelbase version, on order in Europe from September 2026",
    "cell_src": [
     "idbuzz"
-   ]
+   ],
+   "price_from": 34460
   },
   {
    "id": "pv5",
@@ -245,7 +255,7 @@
     "src": []
    },
    "price": {
-    "v": "£27,645 before the grant; £22,645 after",
+    "v": "£27,645 before the grant (£30,145 long range); £22,645 after",
     "src": [
      "pv5_price"
     ]
@@ -255,7 +265,8 @@
    "cell_note": "Supplier of the smaller packs not published",
    "cell_src": [
     "pv5"
-   ]
+   ],
+   "price_from": 27645
   },
   {
    "id": "vivaro",
@@ -316,7 +327,8 @@
    "cell_note": "{battery}, about 69kWh usable (figures for the Vivaro Life, which shares the battery)",
    "cell_src": [
     "vivaro"
-   ]
+   ],
+   "price_from": 38450
   },
   {
    "id": "master",
@@ -346,7 +358,14 @@
    "cell_note": "{battery}, packs assembled at Renault's Batilly plant",
    "cell_src": [
     "master"
-   ]
+   ],
+   "price": {
+    "v": "£37,500 including the grant",
+    "src": [
+     "fw_master"
+    ]
+   },
+   "price_from": 37500
   },
   {
    "id": "esprinter",
@@ -450,7 +469,14 @@
     "src": [
      "fn_farizon"
     ]
-   }
+   },
+   "price": {
+    "v": "£45,000 to £56,000",
+    "src": [
+     "fn_farizon"
+    ]
+   },
+   "price_from": 45000
   }
  ]
 }

@@ -69,7 +69,7 @@ BODY = r'''    <p class="meta">Updated 10 October 2026. Figures are manufacturer
       <li><strong>Long daily mileage with lighter loads:</strong> ID. Buzz Cargo, for the longest range and fastest charging.</li>
       <li><strong>Tight budgets and city work:</strong> PV5 Cargo, the cheapest of the four, with room for two Euro pallets.</li>
     </ul>
-    <p>For the battery maker behind each van, see <a href="/electric-van-batteries/">who makes electric van batteries</a>. For small and large vans, see <a href="/electric-vans-uk/">electric vans compared</a>.</p>
+    <p>For the battery maker behind each van, see <a href="/electric-van-batteries/">who makes electric van batteries</a>. For smaller vans, see <a href="/small-electric-vans-compared/">small electric vans compared</a>; for large vans, see <a href="/electric-vans-uk/#large">electric vans compared</a>.</p>
 '''
 
 VANS = ['etc', 'idb', 'pv5', 'vivaro']

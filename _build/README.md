@@ -10,6 +10,7 @@ hand-written HTML.
 |---|---|
 | `/electric-vans-uk/` | `pages/electric_vans_uk.py` + `data/vans.json` |
 | `/medium-electric-vans-compared/` | `pages/medium_electric_vans_compared.py` + `data/vans.json` |
+| `/small-electric-vans-compared/` | `pages/small_electric_vans_compared.py` + `data/vans.json` |
 | `/electric-van-batteries/` | `pages/electric_van_batteries.py` + `data/vans.json` |
 | `/electric-trucks-uk/` | `pages/electric_trucks_uk.py` |
 | `/clean-air-zones-vans/` | `pages/clean_air_zones_vans.py` + `data/zones.json` |
@@ -26,6 +27,9 @@ python3 _build/check.py          # check every page (links, citations, sitemap, 
 - **Change a van figure:** edit `data/vans.json`, rebuild. Each figure is
   `{"v": "value", "src": ["source_key"]}`, and the tables on the vans,
   comparison and batteries pages all read it.
+- **Update the ZEV sales chart:** edit `SALES` in `charts/zev_van_chart.py`,
+  run it, then `node _build/charts/render.js` to redraw the PNGs. Update the
+  alt text and figures on the grants page to match.
 - **Change a zone's charge:** edit `data/zones.json`, rebuild. Yearly costs are
   worked out from `daily` x `days_per_year`.
 - **Cite a source:** add it once to `data/sources.json`, then write

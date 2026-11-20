@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-10",
+ "as_of": "2026-11-20",
  "note": "One record per van. Every displayed figure is {\"v\": value, \"src\": [source keys in sources.json]}. Pages render their tables from this file, so change a figure here and rebuild.",
  "vans": [
   {
@@ -13,9 +13,10 @@
     ]
    },
    "range": {
-    "v": "182 miles",
+    "v": "182 miles at launch; up to 207 miles for 2026 models",
     "src": [
-     "whatvan_courier"
+     "whatvan_courier",
+     "ford_courier_2026"
     ]
    },
    "payload": {
@@ -31,7 +32,26 @@
      "evguide_cheapest"
     ]
    },
-   "price_from": 27000
+   "price_from": 24500,
+   "compare_name": "Ford E-Transit Courier",
+   "load": {
+    "v": "2.9m³",
+    "src": [
+     "whatvan_courier"
+    ]
+   },
+   "dc": {
+    "v": "100kW; 10–80% in about 26 min",
+    "src": [
+     "ford_courier_2026"
+    ]
+   },
+   "towing": {
+    "v": "750kg",
+    "src": [
+     "whatvan_courier"
+    ]
+   }
   },
   {
    "id": "berlingo",
@@ -50,11 +70,37 @@
     ]
    },
    "payload": {
-    "v": "759kg",
+    "v": "781kg",
     "src": [
      "whatcar_epartner"
     ]
-   }
+   },
+   "compare_name": "Vauxhall Combo Electric and twins",
+   "load": {
+    "v": "3.3m³, or 3.9m³ long; 0.5m³ more with a load-through bulkhead",
+    "src": [
+     "whatcar_epartner"
+    ]
+   },
+   "dc": {
+    "v": "100kW; 20–80% in about 30 min",
+    "src": [
+     "whatcar_epartner"
+    ]
+   },
+   "towing": {
+    "v": "750kg",
+    "src": [
+     "whatcar_epartner"
+    ]
+   },
+   "price": {
+    "v": "£26,800 after the grant (Vauxhall Combo Electric)",
+    "src": [
+     "vr_combo"
+    ]
+   },
+   "price_from": 26800
   },
   {
    "id": "kangoo",
@@ -77,7 +123,33 @@
     "src": [
      "hj_kangoo"
     ]
-   }
+   },
+   "compare_name": "Renault Kangoo E-Tech and twins",
+   "load": {
+    "v": "3.3m³, or 4.2m³ long",
+    "src": [
+     "whatvan_kangoo"
+    ]
+   },
+   "dc": {
+    "v": "75kW; 80% in about 42 min",
+    "src": [
+     "whatvan_kangoo"
+    ]
+   },
+   "towing": {
+    "v": "1,500kg",
+    "src": [
+     "whatvan_kangoo"
+    ]
+   },
+   "price": {
+    "v": "£27,665 list price",
+    "src": [
+     "whatcar_small"
+    ]
+   },
+   "price_from": 27665
   },
   {
    "id": "etc",
@@ -266,7 +338,7 @@
    "cell_src": [
     "pv5"
    ],
-   "price_from": 27645
+   "price_from": 22645
   },
   {
    "id": "vivaro",

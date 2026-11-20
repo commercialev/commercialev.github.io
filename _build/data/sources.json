@@ -329,6 +329,21 @@
    ]
   ]
  },
+ "ford_courier_2026": {
+  "label": "What's new for the E-Transit Courier in 2026, Ford",
+  "links": [
+   [
+    "ford.com",
+    "https://www.fromtheroad.ford.com/eur/en/articles/2026/whats-new-e-transit-courier",
+    false
+   ],
+   [
+    "honestjohn.co.uk",
+    "https://vans.honestjohn.co.uk/ford/e-transit-courier/",
+    false
+   ]
+  ]
+ },
  "freightway": {
   "label": "Electric Freightway trial cost findings, CV Show",
   "links": [
@@ -959,6 +974,16 @@
    ]
   ]
  },
+ "vr_combo": {
+  "label": "Vauxhall Combo Electric review, Van Reviewer",
+  "links": [
+   [
+    "vanreviewer.co.uk",
+    "https://vanreviewer.co.uk/vauxhall/combo-electric/review/4013",
+    false
+   ]
+  ]
+ },
  "warranty": {
   "label": "Electric van battery warranties, Volkswagen Commercial Vehicles",
   "links": [
@@ -984,12 +1009,42 @@
    ]
   ]
  },
+ "whatcar_small": {
+  "label": "Best small electric vans 2026, What Car?",
+  "links": [
+   [
+    "whatcar.com",
+    "https://www.whatcar.com/best/small-electric-vans/n28845",
+    false
+   ]
+  ]
+ },
+ "whatcar_townstar": {
+  "label": "Nissan Townstar review, What Car?",
+  "links": [
+   [
+    "whatcar.com",
+    "https://www.whatcar.com/nissan/townstar/van/review/n29039",
+    false
+   ]
+  ]
+ },
  "whatvan_courier": {
   "label": "Ford E-Transit Courier review, What Van?",
   "links": [
    [
     "whatvan.co.uk",
     "https://www.whatvan.co.uk/van-reviews/ford-e-transit-courier-review/",
+    false
+   ]
+  ]
+ },
+ "whatvan_kangoo": {
+  "label": "Renault Kangoo E-Tech road test, What Van?",
+  "links": [
+   [
+    "whatvan.co.uk",
+    "https://www.whatvan.co.uk/van-reviews/the-what-van-road-test-renault-kangoo-e-tech-2022/",
     false
    ]
   ]

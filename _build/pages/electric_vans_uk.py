@@ -9,10 +9,10 @@ META = {
     'crumb': 'Electric vans compared',
     'h1': 'Electric vans in the UK: range, payload and price compared',
     'published': '2026-10-05',
-    'modified': '2026-11-07',
+    'modified': '2026-11-20',
 }
 
-BODY = r'''    <p class="meta">Updated 7 November 2026. Every figure links to its source. Specifications vary by version, so check the exact van with the dealer. <a href="/about/">How we check facts</a>.</p>
+BODY = r'''    <p class="meta">Updated 20 November 2026. Every figure links to its source. Specifications vary by version, so check the exact van with the dealer. <a href="/about/">How we check facts</a>.</p>
 
     <section class="summary" aria-label="Quick answer">
       <h2>Quick answer</h2>
@@ -43,6 +43,7 @@ BODY = r'''    <p class="meta">Updated 7 November 2026. Every figure links to it
 
     <h2 id="small">Small electric vans</h2>
 {{vans_table:small}}
+    <p>Head to head: <a href="/small-electric-vans-compared/">small electric vans compared</a> sets the E-Transit Courier, Combo Electric and Kangoo E-Tech against the Kia PV5 on range, payload, load space, charging, towing and price.</p>
 
     <h2 id="medium">Medium electric vans</h2>
 {{vans_table:medium}}
@@ -103,7 +104,7 @@ def price_table(data):
         name = v.get('compare_name', v['name'].split(' / ')[0])
         rows.append(f"        <tr><td>{name}</td><td>{v['size'].capitalize()}</td><td>{v['price']['v']} {refs(v['price']['src'])}</td></tr>")
     return ('    <div class="table-wrap"><table class="wide">\n'
-            '      <caption>Electric van list prices from, excluding VAT, lowest first</caption>\n'
+            '      <caption>Electric van prices from, excluding VAT, cheapest first (after the grant where the price is known)</caption>\n'
             '      <thead><tr><th>Van</th><th>Size</th><th>Price from, excluding VAT</th></tr></thead>\n'
             '      <tbody>\n' + '\n'.join(rows) + '\n      </tbody>\n    </table></div>')
 
